@@ -38,7 +38,9 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
-    // implementation("org.poly-gamma.android.origin:origin:[0.1.2.0,2.0.0)")
-    implementation(name: 'origin-release', ext: 'aar')
+
+    implementation("org.poly-gamma.android.origin:origin:[0.1.2.0.1772263184,0.2.0)")
+//    implementation("org.poly-gamma.android.origin:origin:[0.1.2.0.1772088670,0.2.0)")
+    // implementation(name: 'origin-release', ext: 'aar')
     implementation("com.google.android.gms:play-services-ads-identifier:18.2.0")
 }
